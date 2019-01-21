@@ -1,0 +1,6 @@
+#!/bin/bash
+#$ -cwd
+
+gcc -O0 searching_sequential.c -o searching_sequential
+time ./searching_sequential
+
